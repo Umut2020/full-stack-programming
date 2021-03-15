@@ -1,0 +1,21 @@
+Merhabalar arkadaslar
+Ikinci haftaki ödeviniz node.js tarafından sağlanan bir kütüphaneyi kullanarak bir dosya okumak olacaktir. Ödevinizde örnek bir dosyanin okunup içeriğinin ekrana yazdirilmasi gerekmektedir.
+
+Kriterler:
+=======================
+- Analiz bölümünün bulunmasi (user interaction ve technical details)
+- Programin düzgün calismasi
+- Kod içine yorumların eklenmesi
+- Kod makyajina dikkat edilmesi
+- Dosya yapisinin ayni ile gerceklestirilmesi
+
+Dosya Yapisi:
+app.js
+OrnekDosya.txt
+
+
+Teslimat Formatı:
+=======================
+Ödevinizi github hesabiniza yükleyip classroomda linkni paylasiniz.
+
+Happy Coding!
