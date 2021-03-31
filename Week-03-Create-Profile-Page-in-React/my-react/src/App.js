@@ -1,8 +1,8 @@
-import Profil from './compenent/Profil'
+import Profil from './component/Profil'
 
 function App () {
   return (
-    <Profil></Profil>
+    <Profil/>
   )
 }
 

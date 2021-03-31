@@ -8,7 +8,7 @@ body,html {
 }
 
 body {
-    background-image: url(./compenent/futbol-area.jpg);
+    background-image: url(./component/futbol-area.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
