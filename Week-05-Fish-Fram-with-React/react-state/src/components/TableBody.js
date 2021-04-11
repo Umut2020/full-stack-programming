@@ -1,0 +1,35 @@
+export default function TableBody (props) {
+  return (
+    <tbody>
+      <tr>
+        <td>
+          {props.fish.fishType}
+        </td>
+        <td>
+          {props.fish.price}
+        </td>
+        <td>
+          {props.fish.entryDate.toString()}
+        </td>
+        <td>
+          {props.fish.durationInDays}
+        </td>
+        <td>
+          {props.fish.itemWeightInGrams}
+        </td>
+        <td>
+          {props.fish.originCountry}
+        </td>
+        <td>
+          {props.fish.season}
+        </td>
+        <td>
+          {props.fish.stockVolumeInKg}
+        </td>
+        <td>
+          {props.fish.saleLocations}
+        </td>
+      </tr>
+    </tbody>
+  )
+}
