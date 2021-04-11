@@ -18,7 +18,7 @@ export default function Child (props) {
         </Card.Text>
       </Card.Body>
       <Card.Footer>
-        <small className='text-muted'>Birthday: {props.child.birthday}</small>
+        <small className='text-muted' data-testid='myfooter'>Birthday: {props.child.birthday}</small>
       </Card.Footer>
     </Card>
   )}

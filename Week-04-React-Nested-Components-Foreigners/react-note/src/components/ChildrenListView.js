@@ -6,7 +6,7 @@ export default function ChildrenListView (props) {
   return (
     <CardGroup>
       <Card.Body>
-        <Card.Title>
+        <Card.Title data-testid='my-card-title'>
           CHILDREN
         </Card.Title>
       </Card.Body>
