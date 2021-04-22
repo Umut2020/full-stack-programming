@@ -2,7 +2,7 @@ import Friend from './Friend'
 import { CardGroup, Card } from 'react-bootstrap'
 
 export default function FriendsListView (props) {
-  const allFriends = props.friends.map(friend => <Friend friend={friend}></Friend>
+  const allFriends = props.friends.map((friend, index) => <Friend key={index} friend={friend}></Friend>
 
   )
 

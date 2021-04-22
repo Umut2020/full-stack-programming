@@ -5,18 +5,21 @@ const handleFormSubmit = (event) => {
 const SearchBox = (props) => {
 
   return (
-    <form onSubmit={handleFormSubmit}>
-      <div className='form-row mb-5'>
-        <div className='col-12'>
-          <input
-            onChange={props.searchMovieProp}
-            value='dfsd'
-            type='text'
-            className='form-control'
-            placeholder='Seach a movie' />
+
+    <div>
+      <form onSubmit={handleFormSubmit}>
+        <div className='form-row mb-5'>
+          <div className='col-12'>
+            <input
+              onChange={props.searchMovieProp}
+              type='text'
+              className='form-control'
+              placeholder='Seach a movie' />
+          </div>
         </div>
-      </div>
-    </form>
+      </form>
+    </div>
+
   )
 }
 

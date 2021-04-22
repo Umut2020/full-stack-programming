@@ -1,4 +1,4 @@
-import { Card, Button, Col, Row, Container, Badge } from 'react-bootstrap'
+import { Card, Col, Row, Container, Badge } from 'react-bootstrap'
 
 const Movie = (props) => {
 
@@ -10,17 +10,32 @@ const Movie = (props) => {
           {props.movie.Title}
         </Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
+          {props.movie.Plot}
         </Card.Text>
         <Container>
           <Row>
             <Col>
-            <Button variant='danger'>
-              Delete
-            </Button>
+            <h2><Badge variant='secondary'> Director : {props.movie.Director} </Badge></h2>
+            {' '}
             </Col>
             <Col>
-            <h2><Badge variant='secondary'> New </Badge></h2>
+            <h2><Badge variant='secondary'> Country : {props.movie.Country} </Badge></h2>
+            {' '}
+            </Col>
+            <Col>
+            <h2><Badge variant='secondary'> Runtime : {props.movie.Runtime} </Badge></h2>
+            {' '}
+            </Col>
+            <Col>
+            <h2><Badge variant='secondary'> Released : {props.movie.Released} </Badge></h2>
+            {' '}
+            </Col>
+            <Col>
+            <h2><Badge variant='secondary'> Genre : {props.movie.Genre} </Badge></h2>
+            {' '}
+            </Col>
+            <Col>
+            <h2><Badge variant='secondary'> Imdb Rating : {props.movie.imdbRating} </Badge></h2>
             {' '}
             </Col>
           </Row>

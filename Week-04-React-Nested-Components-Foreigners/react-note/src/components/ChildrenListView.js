@@ -2,7 +2,7 @@ import Child from './Child'
 import { CardGroup, Card } from 'react-bootstrap'
 
 export default function ChildrenListView (props) {
-  const allChild = props.children.map(child => <Child child={child}></Child>)
+  const allChild = props.children.map((child, index) => <Child key={index} child={child}></Child>)
   return (
     <CardGroup>
       <Card.Body>
