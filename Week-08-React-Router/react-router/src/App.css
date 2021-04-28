@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+ 
+}
+
+.link {
+  border: solid 1px;
+  color: black;
+}
