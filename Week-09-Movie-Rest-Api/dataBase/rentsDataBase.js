@@ -8,7 +8,8 @@ let rentsDataBase = [
     'movieId': 10003,
     'duration': 13,
     'person': 'Hi Coders'
-  }, {
+  },
+  {
     'movieId': 10004,
     'duration': 14,
     'person': 'Hi Coders'

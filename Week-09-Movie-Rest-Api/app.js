@@ -5,11 +5,16 @@ import cors from 'cors'
 import cookieParser from 'cookie-parser'
 import logger from 'morgan'
 
+import swaggerUi from 'swagger-ui-express'
+import swaggerDocument from './swagger.json'
+
 // Routers
 import moviesRouter from './routes/movies.js'
 import rentsRouter from './routes/rents.js'
 
 let app = express()
+
+app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 
 app.use(cors())
 app.use(logger('dev'))

@@ -23,6 +23,3 @@ export function updateMovie (pId, pUpdateMovie) {
   movie.name = pUpdateMovie.name
   movie.year = pUpdateMovie.year
 }
-
-// let newMovie = JSON.parse(JSON.stringify(movie))
-// Object.assign({}, movie)

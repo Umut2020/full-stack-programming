@@ -1,5 +1,5 @@
 import express from 'express'
-const router = express.Router()
+let router = express.Router()
 import * as service from '../service/movie-service.js'
 
 /* GET movies listing. */
