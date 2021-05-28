@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "^4.17.1",
+    "morgan": "~1.9.1",
+    "swagger-autogen": "^2.8.1",
+    "swagger-jsdoc": "^7.0.0-rc.6",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "scripts": {
+    "start": "npm run doc-gen & nodemon --experimental-json-modules app.js",
+    "doc-gen": "node swagger.js"
+  }
+}
